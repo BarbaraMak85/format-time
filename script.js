@@ -1,5 +1,5 @@
 var os = require('os');
-var TimeFormatter = require('./test/time/modules')
+var TimeFormatter = require('./modules/time/modules')
 
 process.stdin.setEncoding('utf-8');
 process.stdin.on('readable', function() {
